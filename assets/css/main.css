@@ -3235,9 +3235,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			/* background-image:url("../../images/background.jpg") ; */
-			background-image: url("../../images/background.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
-			/* background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg"); */
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3314,6 +3312,7 @@ input, select, textarea {
 		text-align: center;
 		z-index: 1;
 		min-height: 100vh;
+		/* background-image:url("../../images/background.jpg") ;  */
 		
 	}
 
@@ -3396,7 +3395,7 @@ input, select, textarea {
 
 		#intro p {
 			font-size: 1.25rem;
-			font-style: italic;
+			/* font-style: italic; */
 			margin-top: -0.25rem;
 			text-align: center;
 		}
